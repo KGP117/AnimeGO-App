@@ -54,15 +54,6 @@ const checkAdd= (show)=>{
     }
 }
 }
-//for (var key in localStorage) {
-  //console.log(key + ':' + localStorage[key]);
-//}
-//const state={
-    //show:[
-    //    {id:details.mal_id}
-  //  ]   
-//}
-//console.log(state);
 
     return (
         <div>

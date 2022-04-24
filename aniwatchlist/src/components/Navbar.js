@@ -22,7 +22,7 @@ export default function DenseAppBar() {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static" style={{ background: "grey" }} >
+      <AppBar position="static" style={{ background: "black" }} >
         <Toolbar variant="dense">
           <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu" onClick={() => history.push('/WatchList')}>
             <MenuIcon />

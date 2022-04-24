@@ -1,7 +1,7 @@
 function Header(){
     return(
         <header>
-            <h1>Ani<strong>Watch</strong>List</h1>
+            <h1>Anime<strong>GO</strong></h1>
         </header>
     )
 

@@ -1,3 +1,7 @@
+.background{
+  background-image: url("cf1feb16-531c-4c76-92d3-93eda8e5d8f.jpeg");
+  background-size: cover;
+}
 
 .container{
     width: 100vw;
@@ -6,9 +10,10 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap :7rem;
     padding: 0 2rem;
-    padding-top: 450px;
-    padding-left: 850px;
-    background-color: rgba(255, 227, 227, 0.767);
+    padding-top: 250px;
+    padding-left: 585px;
+    color:white;
+    text-shadow: 5px 5px 5px #000000;
 }
 
 input#password {
@@ -22,8 +27,8 @@ input#email {
 
 
 .loginButton {
-  width: 30%;
+  width: 62%;
   margin-top: 20px;
+  color: black;
+  background-color: white;
 }
-
-

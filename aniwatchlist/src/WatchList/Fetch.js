@@ -16,21 +16,14 @@ const FetchAnime= async(id)=>{
     const temp= await fetch(`https://api.jikan.moe/v3/anime/${id}`).then(res=> res.json());
     cardInfo.push({image: temp.image_url, title:temp.title, description:temp.synopsis});
     console.log(temp);
-
-    //return temp;
 }
 
 const Fetch= ()=>{
 for (var i=0; i< localStorage.length; i++) {
     var id=localStorage.getItem(localStorage.key(i));
     FetchAnime(id);
-    //console.log(data);
-
 }
  
-        //console.log(details);
-
-
     const useStyles = makeStyles({
         root: {
           maxWidth: 345,

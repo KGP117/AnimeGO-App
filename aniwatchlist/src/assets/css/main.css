@@ -10,6 +10,8 @@
   header {
     padding-top: 50px;
     padding-bottom: 50px;
+    background-image: url("Flag.jpg");
+    background-size: cover;
   }
   
   header h1 {
@@ -27,7 +29,8 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-   
+    background-image: url("cf1feb16-531c-4c76-92d3-93eda8e5d8f.jpeg");
+    background-size: cover;
   }
   
   .content-wrap aside {

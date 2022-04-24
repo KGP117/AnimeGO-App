@@ -25,16 +25,19 @@ export default function Home() {
     }
   
     return (
+      <div className="background">
       <div className="container">
-
       <div className="">
+      <div class="header">
+        <h1>Anime<strong>GO</strong></h1>
+        <br></br>
+      </div>
         <Form onSubmit={handleSubmit}>
           <Form.Group size="lg" controlId="email">
-            <Form.Label>Email</Form.Label>
+            <Form.Label>UserName</Form.Label>
             <br></br>
             <Form.Control
               autoFocus
-              //type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
@@ -52,6 +55,7 @@ export default function Home() {
             Login
           </Button>
         </Form>
+      </div>
       </div>
       </div>
     );
