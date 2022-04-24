@@ -1,1 +1,1 @@
-# 2602project
+# 2602project - AnimeGO App
